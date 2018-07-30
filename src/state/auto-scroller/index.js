@@ -29,9 +29,9 @@ export default ({
   });
 
   const marshal: AutoScroller = {
-    cancel: fluidScroll.cancel,
-    fluidScroll,
-    jumpScroll,
+    cancel: () => {},
+    fluidScroll: () => {},
+    jumpScroll: () => {},
   };
 
   return marshal;
